@@ -66,10 +66,12 @@ footer {
 }
 
 .research-figure {
-  max-width: 200px;
+  width: 50%;
+  max-width: 300px; /* optional: keeps it from being too large on big screens */
   height: auto;
   margin-right: 1.5em;
   border-radius: 6px;
+  object-fit: contain;
 }
 
 .research-content {
