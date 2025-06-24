@@ -59,21 +59,24 @@ footer {
   border-radius: 8px;
 }
 
-.research-item {
+.research-split {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 2.5em;
+  gap: 1.5em;
+  margin-top: 1em;
+  flex-wrap: wrap;
 }
 
 .research-figure {
-  width: 50%;
-  max-width: 300px; /* optional: keeps it from being too large on big screens */
+  max-width: 300px;
+  width: 100%;
   height: auto;
-  margin-right: 1.5em;
   border-radius: 6px;
   object-fit: contain;
+  flex-shrink: 0;
 }
 
-.research-content {
+.research-description {
   flex: 1;
+  min-width: 250px;
 }
