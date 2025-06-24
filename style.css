@@ -58,3 +58,20 @@ footer {
   height: auto;
   border-radius: 8px;
 }
+
+.research-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2.5em;
+}
+
+.research-figure {
+  max-width: 200px;
+  height: auto;
+  margin-right: 1.5em;
+  border-radius: 6px;
+}
+
+.research-content {
+  flex: 1;
+}
