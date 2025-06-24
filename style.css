@@ -50,3 +50,12 @@ footer {
   color: #666;
   font-size: 0.9em;
 }
+
+.profile-pic {
+  display: block;
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 1.5em auto;
+}
