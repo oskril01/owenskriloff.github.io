@@ -146,17 +146,17 @@ footer {
 }
 
 .pan-wrapper {
-  overflow-x: auto;
+  display: flex;                /* Use flexbox to align items horizontally */
+  overflow-x: auto;             /* Enable horizontal scrolling */
   overflow-y: hidden;
-  width: 100%;
-  margin-bottom: 2em;
-  padding-bottom: 0.5em;
   scroll-behavior: smooth;
+  gap: 0;                       /* Optional: control spacing between images */
+  margin: 2em 0;
 }
 
 .pan-wrapper img {
-  display: block;
   height: auto;
-  width: auto;
-  max-height: 90vh; /* Optional, keeps image vertically contained */
+  max-height: 90vh;            /* Prevent images from being too tall */
+  flex-shrink: 0;              /* Prevent images from shrinking */
+  object-fit: contain;
 }
