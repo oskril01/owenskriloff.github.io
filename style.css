@@ -80,3 +80,20 @@ footer {
   flex: 1;
   min-width: 250px;
 }
+
+.project-links {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  margin-top: 1em;
+  font-weight: bold;
+}
+
+.project-links a {
+  color: #000;
+  text-decoration: none;
+}
+
+.project-links a:hover {
+  text-decoration: underline;
+}
