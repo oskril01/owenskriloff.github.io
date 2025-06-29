@@ -155,6 +155,7 @@ footer {
 }
 
 .pan-wrapper img {
+  display: inline-block;
   height: auto;
   max-height: 90vh;            /* Prevent images from being too tall */
   flex-shrink: 0;              /* Prevent images from shrinking */
