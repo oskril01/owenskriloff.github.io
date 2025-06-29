@@ -79,6 +79,7 @@ footer {
 .research-description {
   flex: 1;
   min-width: 250px;
+  color: #000;
 }
 
 .project-links {
