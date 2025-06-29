@@ -17,11 +17,35 @@
     </nav>
   </header>
   <main>
+    
     <h2>Project Archive</h2>
-    <ul>
-      <li><strong>Thermodynamic Optimization in Reactor Design</strong> – Chemical Engineering Capstone (2023)</li>
-      <li><strong>Iterative Learning in PDE-Constrained Systems</strong> – Final project for ML class (2024)</li>
-    </ul>
+
+    <article class="research-item">
+      <h3>Connecting Loss-Landscape Geometry to Generalization Across MLP Depths</h3>
+    
+      <div class="research-split">
+        <img src="images/EEfinalproj.png" alt="Thesis figure" class="research-figure" />
+        <div class="research-description">
+          <p>
+            This project investigates how neural network depth affects generalization by analyzing the geometry of the training-loss landscape. Fully connected networks of varying depths were trained on MNIST and analyzed using curvature and loss metrics at their converged minima. Two summary statistics—a parameter cluster radius and a depth-dependent trade-off weight—revealed an optimal window near depth 4. Adding a global curvature penalty reduced validation error by over 15%, showing that Hessian-based regularization can improve generalization in a principled, architecture-aware way.
+          </p>
+        </div>
+      </div>
+    </article>
+
+    <article class="research-item">
+      <h3>Entropy and Energy Measures: Complementary Tools for Analyzing Reaction-Diffusion Dynamics</h3>
+    
+      <div class="research-split">
+        <img src="images/animation.gif" alt="Thesis figure" class="research-figure" />
+        <div class="research-description">
+          <p>
+            This project explores how two complementary metrics—Shannon entropy and the energy norm—can be used to characterize the behavior of reaction-diffusion systems. By solving a coupled system across a range of diffusivity and reactivity parameters, we generated solutions exhibiting diverse dynamic regimes. Entropy proved effective at identifying sharp transitions with minimal time data, while the energy norm captured fine-grained variations within evolving patterns. Together, these measures offer a powerful framework for understanding phase transitions and emergent behavior in spatially distributed systems.
+          </p>
+        </div>
+      </div>
+    </article>
+    
   </main>
   <footer>
     <p>© 2025 Owen Skriloff</p>
