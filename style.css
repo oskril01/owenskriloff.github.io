@@ -97,3 +97,36 @@ footer {
 .project-links a:hover {
   text-decoration: underline;
 }
+
+/* Header Layout */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2em 1em;
+  border-bottom: 1px solid #ccc;
+  background-color: #fdfdfd; /* or your preferred background */
+}
+
+.site-name {
+  font-size: 1.2em;
+  font-weight: 500;
+  text-decoration: none;
+  color: #111; /* match your theme */
+}
+
+.site-name:hover {
+  text-decoration: underline;
+}
+
+.nav-right a {
+  margin-left: 1.5em;
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+}
+
+.nav-right a:hover {
+  color: #000;
+  text-decoration: underline;
+}
