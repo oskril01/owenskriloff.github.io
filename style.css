@@ -144,3 +144,19 @@ footer {
   justify-content: flex-end;
   gap: 1.5em;
 }
+
+.pan-wrapper {
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: 100%;
+  margin-bottom: 2em;
+  padding-bottom: 0.5em;
+  scroll-behavior: smooth;
+}
+
+.pan-wrapper img {
+  display: block;
+  height: auto;
+  width: auto;
+  max-height: 90vh; /* Optional, keeps image vertically contained */
+}
